@@ -67,7 +67,7 @@ with DAG(
         task_id = "data_check_task",
         python_callable = check_data,
         op_kwargs={
-            "output_path": "{PLACEHOLDER_AIRFLOW_HOME}/data/processed_transaction.csv"
+            "output_path": "{PLACEHOLDER_AIRFLOW_HOME}/data/processed_transactions.csv"
         }
     )
 
